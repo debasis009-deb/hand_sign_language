@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Datasets & Large Files (Don't push these to GitHub)
+*.csv
+sign_mnist_train/
+sign_mnist_test/
+*.png
+*.PNG
+
+# We DO want to keep the model files so others can run the app easily
+!sign_model.pth
+!hand_landmarker.task
