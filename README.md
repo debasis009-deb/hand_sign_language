@@ -40,6 +40,12 @@ python app.py
 
 Open your browser and navigate to `http://127.0.0.1:5000`. Allow camera permissions when prompted.
 
+## ⚠️ Limitations
+
+- Real-time accuracy may drop in poor lighting conditions  
+- Similar gestures can sometimes be misclassified  
+- Model trained on Sign MNIST, so real-world generalization is limited  
+
 ## 🧠 Training Your Own Model
 
 If you want to train the model from scratch, you will need the Sign MNIST dataset:
