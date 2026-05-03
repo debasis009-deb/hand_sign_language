@@ -21,7 +21,7 @@ Make sure you have Python 3.8+ installed on your system.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/hand_sign_language.git
+git clone https://github.com/debasis009-deb/hand_sign_language.git
 cd hand_sign_language
 ```
 
